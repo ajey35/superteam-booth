@@ -9,6 +9,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    esmExternals: 'loose',
+  },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      config.externals = [...config.externals, 'three', '@react-three/fiber', '@react-three/drei']
+    }
+    return config
+  },
 }
 
 export default nextConfig
