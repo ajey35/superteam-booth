@@ -3,6 +3,8 @@
 An interactive **3D event booth** built with **React + TypeScript + Three.js (@react-three/fiber + @react-three/drei)**.  
 This booth is designed for **Superteam Vietnam events** (hackathons, conferences, community meetups) and follows the official booth guidelines.
 
+## Demo  video 
+[https://drive.google.com/file/d/1D6JwSMRXdEn93jyddf9aNTRwJkcvyUgl/view?usp=sharing]
 ---
 
 ## ✨ Features
