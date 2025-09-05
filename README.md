@@ -39,5 +39,3 @@ This booth is designed for **Superteam Vietnam events** (hackathons, conferences
 
 ---
 
-## 📂 Project Structure
-
